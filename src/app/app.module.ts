@@ -12,7 +12,6 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireStorageModule } from '@angular/fire/storage';
-import { OwlModule } from 'ngx-owl-carousel';
 
 /** Componenetes */
 import { AppRoutingModule } from './app-routing.module';
@@ -31,7 +30,6 @@ import { environment } from 'src/environments/environment.prod';
     AngularFirestoreModule,
     AngularFireStorageModule,
     AngularFireAuthModule,
-    OwlModule,
   ],
   providers: [
     StatusBar,

@@ -42,11 +42,6 @@ const routes: Routes = [
     ]
   },
   {
-    path: '',
-    redirectTo: '/tabs/tab1',
-    pathMatch: 'full'
-  },
-  {
     path: 'prueba',
     loadChildren: './pages/login/login.module#LoginModule'
   },
@@ -58,4 +53,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class TabsPageRoutingModule {}
+export class TabsPageRoutingModule { }
